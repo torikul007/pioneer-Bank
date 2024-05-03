@@ -15,7 +15,7 @@
      updateSpanText("currentDeposit", depositNumber);
      updateSpanText("currentBalance", depositNumber);
 
-     document.getElementById("depositAmount").value = "";
+     document.getElementById("depositAmount").value = "00";
  })
 
  // withdraw button event handler
@@ -26,7 +26,7 @@
      updateSpanText("currentWithdraw", withdrawNumber);
      updateSpanText("currentBalance", -1 * withdrawNumber);
 
-     document.getElementById("withdrawAmount").value = ""
+     document.getElementById("withdrawAmount").value = "00"
  })
 
  function getInputNumber(id){
